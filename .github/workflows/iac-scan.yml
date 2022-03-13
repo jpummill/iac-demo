@@ -36,9 +36,9 @@ jobs:
           echo test, and deploy your project.
 
       # Runs a Bridgecrew scan for IaC issues and provides automated fixes where available
-      - name: Run Bridgecrew 
-        id: Bridgecrew
-        uses: bridgecrewio/bridgecrew-action@master 
-        with:
-          api-key: ${{ secrets.BC_API_KEY }}
+      #- name: Run Bridgecrew 
+      #  id: Bridgecrew
+      #  uses: bridgecrewio/bridgecrew-action@master 
+      #  with:
+      #    api-key: ${{ secrets.BC_API_KEY }}
 
