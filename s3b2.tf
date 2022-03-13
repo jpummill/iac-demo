@@ -10,7 +10,7 @@ resource "aws_s3_bucket" "s3-billing-03" {
         sse_algorithm = "aws:kms"
       }
     }
-  }
+        sse_algorithm = "aws:kms"
   versioning {
     enabled = true
   }
